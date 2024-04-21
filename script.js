@@ -42,11 +42,11 @@ var BEGIN_AT_ZERO2 = true;
 // `true` to show the legend, `false` to hide
 var SHOW_LEGEND2 = true;
 
-var redph = '/GEhighchart/redpartyhat.csv';
+var redph = '.GEhighchart/redpartyhat.csv';
 
-var abysswhip = '/GEhighchart/abysswhip.csv';
+var abysswhip = '.GEhighchart/abysswhip.csv';
 
-var veracsflail = '/GEhighchart/veracsflail.csv';
+var veracsflail = '.GEhighchart/veracsflail.csv';
 
 var graph2 = abysswhip;
 
