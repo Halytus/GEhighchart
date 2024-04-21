@@ -1,0 +1,51 @@
+body {
+  background-color: #473d32;
+  
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #473d32;
+  border: 5px;
+  border-color: white;
+  padding: 25px;
+  padding-left: 30px;
+}
+#graph {
+  background-color: #5a3d32;
+  height: 400px;
+  width: 400px;
+  border-style: ridge;
+}
+#graph2 {
+    background-color: #5a3d32;
+  height: 400px;
+  width: 400px;
+  border-style: ridge;
+}
+.divider {
+  background-color: #473d32;
+  width: 50px;
+  height: 400px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #473d32;
+  border: 5px;
+  border-color: white;
+  padding-left: 30px;
+}
+.selection {
+  background-color: #473d32;
+  width: 420px;
+  height: 200px;
+  padding: 5px;
+}
+.arrow {
+  background-color: #5a3d32;
+  width: 200px;
+  height: 150px;
+  padding: 5px;
+  border-style: ridge;
+}
