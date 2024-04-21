@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-    <title>Highcharts Annotated Line Chart Template by handsondataviz.org</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
 
-    <!-- Load jQuery -->
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Grand Exchange Price Comparison Tool</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+        <!-- Load jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   
     <!-- Load Highcharts -->
@@ -15,13 +23,36 @@
 
     <!-- Load PapaParse to read csv files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
-  </head>
+  
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+    
 
+    
+  </head>
   <body>
 
-    <div id="container" style="width: 100%; height: 400px; background-color: blue"></div>
-    <script src="script.js"></script>
-
+<div class="box">
+  <div id ="graph">   
+  </div>
+   <div class ="divider">
+  </div>
+   <div id ="graph2">
+  </div>
+  <script src="script.js"></script>
+    </div>
+<div class="content">
+  <div class="arrow">
+    button left
+  </div>
+   <div class="selection">
+    <button onclick="chngChart(veracsflail)">
+      Change Graph 2!
+     </button>
+  </div>
+   <div class="arrow">
+    button right
+  </div>
+    </div>
   </body>
-
 </html>
