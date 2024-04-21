@@ -4,8 +4,8 @@ var TITLE = 'Grand Exchange Price of a Red Party Hat 2008-2023';
 var CAPTION = 'Source: Jagex and Kaggle';
 
 // Add download link to the caption
-CAPTION += '<br><a href="https://github.com/HandsOnDataViz/highcharts-line-annotated" style="color:blue">View data and code</a>, \
-created by <a href="https://handsondataviz.org/" style="color: blue">HandsOnDataViz</a> \
+CAPTION += '<br><a href="https://halytus.github.io/GEhighchart/" style="color:blue">View data and code</a>, \
+created by <a href="" style="color: blue">Halytus(placeholder for portfolio site)</a> \
 with <a href="https://www.highcharts.com/" style="color: blue">Highcharts</a>';
 
 // x-axis label and label in tooltip
